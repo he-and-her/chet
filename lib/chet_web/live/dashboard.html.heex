@@ -1,0 +1,77 @@
+<div class="mt-4">
+  <h3 class="font-semibold text-sm">Seed History</h3>
+  <ul class="list-disc list-inside text-sm text-gray-700">
+    <%= for past <- @seed_history do %>
+      <li class="cursor-pointer hover:underline" phx-click="reuse_seed" phx-value-seed={past}>
+        {past}
+      </li>
+    <% end %>
+  </ul>
+</div>
+
+<button
+  type="button"
+  phx-click="generate_seed"
+  class="ml-2 px-3 py-1 rounded bg-indigo-600 text-white"
+>
+  Random Seed
+</button>
+
+<p class="text-sm text-gray-600 italic">
+  Active Seed: {@seed || "random"}
+  <span
+    id="copy"
+    phx-hook="Clipboard"
+    data-clipboard-value={@seed}
+    class="ml-2 underline cursor-pointer text-blue-600 hover:text-blue-800"
+  >
+    Copy Seed
+  </span>
+</p>
+
+<div class="flex items-center space-x-4 m-4 flex-col">
+  <div>
+    <button phx-click="tick" class="bg-blue-600 text-white px-4 py-2 rounded">Tick</button>
+    <button phx-click="reset" class="bg-red-600 text-white px-4 py-2 rounded">Reset</button>
+    <button phx-click="toggle_auto" class="bg-gray-600 text-white px-4 py-2 rounded">
+      {if @auto_tick, do: "Pause", else: "Auto Tick"}
+    </button>
+  </div>
+
+  <form phx-submit="reset_with_seed" phx-change="seed_typing">
+    <input
+      type="text"
+      name="seed"
+      value={@seed_input}
+      placeholder="Enter seed..."
+      class="border px-2 py-1 rounded text-sm"
+    />
+    <button type="submit" class="ml-2 px-3 py-1 rounded bg-purple-600 text-white">
+      Seed Reset
+    </button>
+  </form>
+
+  <a href="/export" class="px-3 py-1 bg-teal-600 text-white rounded shadow hover:bg-teal-700">
+    Export
+  </a>
+  <form phx-submit="upload_snapshot">
+    <.live_file_input upload={@uploads.snapshot} class="mt-2" />
+    <button type="submit" class="ml-2 px-3 py-1 bg-orange-600 text-white rounded">
+      Import
+    </button>
+  </form>
+</div>
+<div class="p-4 space-y-4">
+  <% stats = global_stats(@sim) %>
+  <h1 class="text-xl font-bold">Simulation Day {@sim.day} ({stats.dead}/{stats.total})</h1>
+
+  <div class="grid grid-cols-3 gap-4">
+    <%= for {zone_name, zone} <- @sim.zones do %>
+      <div class="border rounded-xl p-3 shadow">
+        <h2 class="font-semibold text-lg">Zone {to_string(zone_name)}</h2>
+        <p>Resources: {zone.resources}</p>
+        <p>Beings: {length(zone.beings)}</p>
+      </div>
+    <% end %>
+  </div>
+</div>

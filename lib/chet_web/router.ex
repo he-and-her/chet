@@ -17,7 +17,7 @@ defmodule ChetWeb.Router do
   scope "/", ChetWeb do
     pipe_through :browser
 
-    live "/", DashboardLive
+    live "/", Dashboard
     get "/export", ExportController, :export
     post "/import", ExportController, :import
   end

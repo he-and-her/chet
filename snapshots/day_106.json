@@ -2,751 +2,807 @@
   "messages": [],
   "day": 106,
   "zones": {
-    "i": {
-      "beings": [],
-      "resources": 0
+    "p": {
+      "resources": 0,
+      "beings": []
+    },
+    "q": {
+      "resources": 0,
+      "beings": []
     },
     "s": {
-      "beings": [],
-      "resources": 0
+      "resources": 0,
+      "beings": []
     },
     "w": {
-      "beings": [],
-      "resources": 0
-    },
-    "g": {
-      "beings": [],
-      "resources": 0
+      "resources": 0,
+      "beings": []
     }
   },
   "beings": {
     "39": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "74": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "59": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "69": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "s",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "67": {
       "alive": true,
       "memory": {},
-      "location": "s",
+      "location": "p",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "45": {
       "alive": true,
       "memory": {},
-      "location": "w",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "50": {
       "alive": true,
       "memory": {},
       "location": "s",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "22": {
       "alive": true,
       "memory": {},
       "location": "s",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "51": {
       "alive": true,
       "memory": {},
       "location": "w",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "26": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "63": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "s",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "47": {
       "alive": true,
       "memory": {},
-      "location": "w",
+      "location": "q",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "85": {
       "alive": true,
       "memory": {},
       "location": "w",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "27": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "s",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "77": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "5": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "21": {
       "alive": true,
       "memory": {},
       "location": "s",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "86": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "62": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "30": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "16": {
       "alive": true,
       "memory": {},
-      "location": "g",
+      "location": "p",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "3": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "53": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "s",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "33": {
       "alive": true,
       "memory": {},
-      "location": "s",
+      "location": "q",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "14": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "40": {
       "alive": true,
       "memory": {},
-      "location": "w",
+      "location": "s",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "37": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "24": {
       "alive": true,
       "memory": {},
-      "location": "w",
+      "location": "p",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "17": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "48": {
       "alive": true,
       "memory": {},
       "location": "w",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "88": {
       "alive": true,
       "memory": {},
-      "location": "w",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "s",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "89": {
       "alive": true,
       "memory": {},
       "location": "w",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "73": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "81": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "11": {
       "alive": true,
       "memory": {},
-      "location": "g",
+      "location": "s",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "57": {
       "alive": true,
       "memory": {},
       "location": "w",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "43": {
       "alive": true,
       "memory": {},
-      "location": "w",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "s",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "83": {
       "alive": true,
       "memory": {},
-      "location": "i",
+      "location": "q",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
+    },
+    "95": {
+      "alive": true,
+      "memory": {},
+      "location": "w",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "6": {
       "alive": true,
       "memory": {},
-      "location": "s",
+      "location": "w",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "87": {
       "alive": true,
       "memory": {},
-      "location": "w",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "20": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "60": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "s",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "28": {
       "alive": true,
       "memory": {},
-      "location": "w",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "s",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "25": {
       "alive": true,
       "memory": {},
       "location": "w",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "1": {
       "alive": true,
       "memory": {},
-      "location": "w",
+      "location": "q",
       "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "58": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "32": {
       "alive": true,
       "memory": {},
-      "location": "w",
+      "location": "q",
       "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
+    },
+    "97": {
+      "alive": true,
+      "memory": {},
+      "location": "q",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "76": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "36": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "35": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "15": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "s",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "80": {
       "alive": true,
       "memory": {},
-      "location": "w",
+      "location": "p",
       "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "78": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "64": {
       "alive": true,
       "memory": {},
-      "location": "w",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "75": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "66": {
       "alive": true,
       "memory": {},
       "location": "w",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "71": {
       "alive": true,
       "memory": {},
-      "location": "g",
+      "location": "w",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "79": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "49": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "82": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "9": {
       "alive": true,
       "memory": {},
       "location": "w",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "23": {
       "alive": true,
       "memory": {},
-      "location": "w",
+      "location": "q",
       "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "10": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "44": {
       "alive": true,
       "memory": {},
-      "location": "w",
+      "location": "s",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "8": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "70": {
       "alive": true,
       "memory": {},
-      "location": "s",
+      "location": "p",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "31": {
       "alive": true,
       "memory": {},
-      "location": "i",
+      "location": "q",
       "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "65": {
       "alive": true,
       "memory": {},
-      "location": "w",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "61": {
       "alive": true,
       "memory": {},
-      "location": "g",
+      "location": "w",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "56": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "38": {
       "alive": true,
       "memory": {},
-      "location": "g",
+      "location": "w",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "90": {
       "alive": true,
       "memory": {},
-      "location": "w",
+      "location": "q",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "7": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
+    },
+    "98": {
+      "alive": true,
+      "memory": {},
+      "location": "q",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "2": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "55": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "42": {
       "alive": true,
       "memory": {},
-      "location": "s",
+      "location": "w",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "13": {
       "alive": true,
       "memory": {},
-      "location": "w",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "29": {
       "alive": true,
       "memory": {},
-      "location": "s",
+      "location": "w",
       "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "41": {
       "alive": true,
       "memory": {},
       "location": "w",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "91": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "q",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "19": {
       "alive": true,
       "memory": {},
-      "location": "s",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "12": {
       "alive": true,
       "memory": {},
       "location": "s",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
+    },
+    "92": {
+      "alive": true,
+      "memory": {},
+      "location": "q",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "52": {
       "alive": true,
       "memory": {},
-      "location": "i",
-      "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "46": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "w",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "34": {
       "alive": true,
       "memory": {},
       "location": "w",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
+    },
+    "93": {
+      "alive": true,
+      "memory": {},
+      "location": "s",
+      "role": "scout",
+      "next_action": "stay",
+      "inbox": []
     },
     "68": {
       "alive": true,
       "memory": {},
-      "location": "g",
+      "location": "s",
       "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "72": {
       "alive": true,
       "memory": {},
-      "location": "g",
-      "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "location": "p",
+      "role": "messenger",
+      "next_action": "stay",
+      "inbox": []
     },
     "4": {
       "alive": true,
       "memory": {},
-      "location": "g",
+      "location": "q",
       "role": "scout",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "84": {
       "alive": true,
       "memory": {},
       "location": "s",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
+    },
+    "94": {
+      "alive": true,
+      "memory": {},
+      "location": "w",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
+    },
+    "96": {
+      "alive": true,
+      "memory": {},
+      "location": "q",
+      "role": "worker",
+      "next_action": "stay",
+      "inbox": []
     },
     "18": {
       "alive": true,
       "memory": {},
-      "location": "i",
+      "location": "q",
       "role": "messenger",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     },
     "54": {
       "alive": true,
       "memory": {},
-      "location": "i",
+      "location": "w",
       "role": "worker",
-      "inbox": [],
-      "next_action": "stay"
+      "next_action": "stay",
+      "inbox": []
     }
   }
 }

@@ -35,3 +35,4 @@ chet-*.tar
 npm-debug.log
 /assets/node_modules/
 
+/snapshots/
